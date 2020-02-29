@@ -17,7 +17,7 @@ import com.nt.service.IDownloadService;
 
 @Controller
 @RequestMapping("/all")
-public class FileDownloadController {
+public class FileDownloadController { 
 
 	@Autowired
 	private IDownloadService service;
