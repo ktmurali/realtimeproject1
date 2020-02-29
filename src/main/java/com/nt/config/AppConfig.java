@@ -28,7 +28,7 @@ import com.nt.model.UploadFileType;
 import com.nt.model.WhUserDataType;
 
 @Configuration
-@EnableTransactionManagement 
+@EnableTransactionManagement   
 @EnableWebMvc // Spring MVC Activated
 //load properties into Spring container
 @PropertySource("classpath:app.properties")
